@@ -1,12 +1,7 @@
-number=float(input("enter your number"))
-if number%2==0:
-    print("number is even")
-else:
-    print("number is odd")
-number=int(input("enter your number"))
+a = 0
 
-if number%2==0:
-    print("number is even")
-else:
-    print("number is odd")
+for i in range(1, 51):
+    a= a + i
+
+print(a)
 
